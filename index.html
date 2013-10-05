@@ -1,20 +1,76 @@
 <html>
 	<head>
+		<meta charset='utf-8'>
+		<title>Rohit Sonwalkar</title>
+		<meta name='description' content='Personal Website. Showcases details about my education & experience.'>
+		<meta name='author' content='Rohit Sonwalkar'>
+		<!-- Mobile viewport optimized-->
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 	</head>
 	<body>
-		<h3>Hello and thanks for visiting!</h3></br>
-		<p>My name is Rohit Sonwalkar & this my personal website. I am a Computer Science graduate student at UT Dallas with concentration in Software Engineering. I have a keen interest in software quality & believe in the motto "Shipping bug-free softwares consistently!".</br>
-		Currently, I am an automation QA co-op at Brightcove - a leader in video cloud and getting to put my hands on some of the coolest technologies around and contributing my bit to the success of our product.</br>
-		I am actively seeking Summer'14 internship opportunities or full-time opportunities starting August'14.</br>
-		Please take a few minutes to browse through my profile & get in touch you feel I could be a good match to your organization. I'd love to discuss with you in more detail!</p>
-		<a href="http://rohitsonwalkar.com/education.html">Education</a></br>
-		<a href="http://rohitsonwalkar.com/work-experience.html">Work Experience</a></br>
-		<a href="http://rohitsonwalkar.com/leadership.html">Leadership</a></br>
-		<a href="http://rohitsonwalkar.com/contact.html">Get in touch!</a></br>
-		<p><u>I'd love to stay connected with you on LinkedIn for future opportunities.</u></p></br>
-		<a href='http://linkedin.com/in/rohitsonwalkar'>My LinkedIn profile</a></br>
-		<a href='http://facebook.com/rohit.sonwalkar'>My Facebook profile</a></br>
-		</br></br></br></br></br><h4>Please note that this website is under active development.</h4></br>
-		<h5>Rohit Sonwalkar &copy; 2013</h5>
+		<div id='container'>
+			<header>
+				<span id='header'>Rohit Sonwalkar</span>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="http://rohitsonwalkar.com/education.html">Education</a></li>
+					<li><a href="http://rohitsonwalkar.com/work-experience.html">Work Experience</a></li>
+					<li><a href="http://rohitsonwalkar.com/leadership.html">Leadership</a></li>
+					<li><a href="http://rohitsonwalkar.com/contact.html">Get in touch!</a></li>
+				</ul>
+			</nav>
+			<div id='main'>
+				<article>
+					I am a Computer Science graduate student at UT Dallas with concentration in Software Engineering. I have a keen interest in software quality & believe in the motto "Shipping bug-free softwares consistently!".</br>
+					Currently, I am an automation QA co-op at Brightcove - a leader in video cloud and getting to put my hands on some of the coolest technologies around and contributing my bit to the success of our product.</br>
+					I am actively seeking Summer'14 internship opportunities or full-time opportunities starting August'14.</br>
+					Please take a few minutes to browse through my profile & get in touch you feel I could be a good match to your organization. I'd love to discuss with you in more detail!
+				</article>
+
+		
+				<p><u>I'd love to stay connected with you on LinkedIn for future opportunities.</u></p></br>
+				<a href='http://linkedin.com/in/rohitsonwalkar'>My LinkedIn profile</a></br>
+				<a href='http://facebook.com/rohit.sonwalkar'>My Facebook profile</a></br>
+				</br></br></br></br></br><h4>Please note that this website is under active development.</h4></br>
+
+				<aside>
+					<script type="text/javascript" src='http://widgets.twimg.com/j/2/widget.js'></script>
+					<script type="text/javascript">
+					new TWTR.Widget({
+  					version: 2,
+  					type: 'profile',
+  					rpp: 5,
+  					interval: 6000,
+  					width: 240,
+  					height: 300,
+  					theme: {
+    					shell: {
+      					background: '#768a65',
+      					color: '#e6d8a0'
+    					},
+    					tweets: {
+      					background: '#e6d8a0',
+      					color: '#000c1d',
+      					links: '#a6122b'
+    					}
+  					},
+  					features: {
+    				scrollbar: false,
+    				loop: false,
+    				live: false,
+    				hashtags: true,
+    				timestamp: true,
+    				avatars: true,
+    				behavior: 'all'
+  					}
+					}).render().setUser('rohitsonwalkar').start();
+					</script>
+				</aside>
+			</div>
+			<footer>
+				<h5>Rohit Sonwalkar &copy; 2013</h5>
+			</footer>	
+		</div>
 	</body>
 </html>
