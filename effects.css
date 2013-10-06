@@ -1,5 +1,5 @@
 a:link {color:gray;}    /* unvisited link */
-a:visited {color:#00FF00;} /* visited link */
+a:visited {color:gray;} /* visited link */
 a:hover {color:#FF00FF;}   /* mouse over link */
 a:active {color:gray;}  /* selected link */
 ul.a {list-style-type:square;}  /*List item markers*/
