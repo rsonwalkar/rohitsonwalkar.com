@@ -2,10 +2,10 @@ body
 {
 	background-color: gray;
 }
-a:link {color:brown;}    /* unvisited link */
-a:visited {color:brown;} /* visited link */
+a:link {color:red;}    /* unvisited link */
+a:visited {color:red;} /* visited link */
 a:hover {color:#FF00FF;}   /* mouse over link */
-a:active {color:brown;}  /* selected link */
+a:active {color:red;}  /* selected link */
 ul.a {list-style-type:square;}  /*List item markers*/
 ul.b {list-style-type:square;}  /*List item markers*/
 ul.c {list-style-type:square;}  /*List item markers*/
